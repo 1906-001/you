@@ -1,0 +1,41 @@
+@import 'variable.less';
+.demo(){
+    width:100px;
+    height:100px;
+    background: @blue;
+  }
+.w(@px){
+    width:unit(@px/@remSize,rem);
+}
+.h(@px){
+    height:unit(@px/@remSize,rem);
+}
+.top(@px){
+    top:unit(@px/@remSize,rem);
+}
+.left(@px){
+    left:unit(@px/@remSize,rem);
+}
+.bottom(@px){
+    bottom:unit(@px/@remSize,rem);
+}
+.right(@px){
+    right:unit(@px/@remSize,rem);
+}
+.l-h(@px){
+    line-height: unit(@px/@remSize,rem);
+}
+
+.padding(@top,@right,@bottom,@left){
+    padding-top:unit(@top/@remSize,rem);
+    padding-right:unit(@right/@remSize,rem);
+    padding-bottom:unit(@bottom/@remSize,rem);
+    padding-left:unit(@left/@remSize,rem);
+}
+
+.margin(@top,@right,@bottom,@left){
+    margin-top:unit(@top/@remSize,rem);
+    margin-right:unit(@right/@remSize,rem);
+    margin-bottom:unit(@bottom/@remSize,rem);
+    margin-left:unit(@left/@remSize,rem);
+}
