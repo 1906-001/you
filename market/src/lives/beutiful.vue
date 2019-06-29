@@ -1,5 +1,5 @@
 <template>
-    <div class="butiful">1234567</div>
+    <div class="butiful">这里是漂亮页面</div>
 </template>
 <script>
 export default {
