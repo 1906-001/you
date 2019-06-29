@@ -1,5 +1,5 @@
 <template>
-    <div class="butiful">1234567</div>
+    <div class="butiful">不是吗</div>
 </template>
 <script>
 export default {
